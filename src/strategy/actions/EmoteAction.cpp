@@ -483,7 +483,7 @@ bool EmoteActionBase::ReceiveEmote(Player* source, uint32 emote, bool verbal)
         case TEXT_EMOTE_LISTEN:
             emoteId = EMOTE_ONESHOT_TALK;
             textEmote = TEXT_EMOTE_TALKQ;
-            emoteText = "Blah Blah Blah Yakety Smackety..";
+            //emoteText = "Blah Blah Blah Yakety Smackety..";
             break;
         case TEXT_EMOTE_THANK:
             emoteId = EMOTE_ONESHOT_BOW;
